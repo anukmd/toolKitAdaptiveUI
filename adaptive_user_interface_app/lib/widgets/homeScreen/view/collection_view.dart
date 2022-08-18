@@ -92,7 +92,7 @@ class CollectionCard extends StatelessWidget {
             title: new AdaptiveText("Hello"),
             content: new AdaptiveText("Consider this action as a success!"),
             actions: <Widget>[
-              FlatButton(
+              TextButton(
                 child: AdaptiveText('Close me!'),
                 onPressed: () {
                   Navigator.of(context).pop();
@@ -104,15 +104,15 @@ class CollectionCard extends StatelessWidget {
       },
       child: Container(
           height: 320,
-          //width: 258,
+          // width: 258,
           width: displayWidth(context) * 20,
           //width: displayWidth(context)*0.25,
           padding: EdgeInsets.symmetric(horizontal: 16),
           decoration: BoxDecoration(
               borderRadius: BorderRadius.circular(5),
               image: DecorationImage(
-                colorFilter:
-                    AdaptiveColorFilter.getAdaptiveColorFilter(context),
+                // colorFilter:
+                //     AdaptiveColorFilter.getAdaptiveColorFilter(context),
                 fit: BoxFit.cover,
                 image: AssetImage(image),
               )),

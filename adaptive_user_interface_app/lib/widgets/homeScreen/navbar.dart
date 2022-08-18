@@ -3,7 +3,7 @@ import 'package:adaptive_user_interface_app/widgets/adaptiveWidgets/adaptiveText
 import 'package:flutter/material.dart';
 import './size_helpers.dart';
 
-class NavigationBar extends StatelessWidget {
+class MyNavigationBar extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
