@@ -96,7 +96,7 @@ class AdaptiveTextButton extends TextButton {
       const EdgeInsets.all(8),
       const EdgeInsets.symmetric(horizontal: 8),
       const EdgeInsets.symmetric(horizontal: 4),
-      MediaQuery.of(context, nullOk: true)?.textScaleFactor ?? 1,
+      MediaQuery.maybeOf(context)?.textScaleFactor ?? 1,
     );
 
     return styleFrom(

@@ -13,13 +13,13 @@ class Header extends StatelessWidget {
         margin: EdgeInsets.only(bottom: 40),
         decoration: BoxDecoration(
             image: DecorationImage(
-                colorFilter: AdaptiveColorFilter.getAdaptiveColorFilter(context),
+                // colorFilter: AdaptiveColorFilter.getAdaptiveColorFilter(context),
                 image: AssetImage("images/header_background.jpeg"),
                 fit: BoxFit.cover)),
         height: 521,
         child: Column(
           children: [
-            NavigationBar(),
+            MyNavigationBar(),
             Container(
                 child: AdaptiveText(
                   'zomato',
